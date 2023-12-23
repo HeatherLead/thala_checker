@@ -12,8 +12,8 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  width: 600px;
-  aspect-ratio: 4/3;
+  width: 450px;
+  aspect-ratio: 3/4;
   background-color: white;
   box-shadow: 0 0 13px 0 black;
   border-radius: 10px;
@@ -61,8 +61,8 @@ body {
 }
 
 .thala {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin-bottom: 40px;
 }
 .reload {
@@ -73,7 +73,7 @@ body {
   cursor: pointer;
 }
 .notThala {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin-bottom: 40px;
 }
