@@ -61,8 +61,8 @@ body {
 }
 
 .thala {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   margin-bottom: 40px;
 }
 .reload {
@@ -73,7 +73,13 @@ body {
   cursor: pointer;
 }
 .notThala {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   margin-bottom: 40px;
+}
+@media screen and (min-width: 701px) {
+  .container {
+    width: 600px;
+    aspect-ratio: 4/3;
+  }
 }
